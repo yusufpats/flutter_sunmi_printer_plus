@@ -28,6 +28,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 30
+    namespace 'com.wojoodtech.flutter_sunmi_printer_plus'
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
