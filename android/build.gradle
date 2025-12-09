@@ -27,7 +27,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 34
     namespace 'com.wojoodtech.flutter_sunmi_printer_plus'
 
     compileOptions {
@@ -36,7 +36,7 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 19
+        minSdkVersion 21
     }
 }
 dependencies {
